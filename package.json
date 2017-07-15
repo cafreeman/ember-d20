@@ -3,15 +3,18 @@
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "d20",
+    "dice"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Chris Freeman",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/cafreeman/ember-d20",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
