@@ -19,6 +19,12 @@ module.exports = {
       files: ['d20.js']
     });
 
-    return new MergeTrees([vendorTree, d20Tree]);
+    const trees = [d20Tree];
+
+    if (vendorTree) {
+      trees.push(vendorTree);
+    }
+
+    return new MergeTrees(trees);
   }
 };
